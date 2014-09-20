@@ -1,0 +1,15 @@
+ul.advertisers-list {
+	padding-left: 0px;
+}
+
+ul.advertisers-list li {
+	background-color: #fafafa;
+	border: solid 2px #f6f6f6;
+	display: block;
+	float: left;
+	padding: 10px;
+}
+
+ul.advertisers-list li+li {
+	margin-left: 10px;
+}

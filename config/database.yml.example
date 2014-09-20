@@ -1,0 +1,13 @@
+development:
+  adapter: postgresql
+  username: root
+  password: 
+  host: localhost
+  database: search_development
+
+test:
+  adapter: postgresql
+  username: root
+  password: 
+  host: localhost
+  database: search_test

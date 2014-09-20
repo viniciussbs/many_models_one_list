@@ -1,0 +1,11 @@
+<ul class="advertisers-list clearfix">
+  <% @advertisers_list.advertisers do |advertiser| %>
+	  <li>
+      <p class="glyphicon <%= advertiser_icon(advertiser) %>">
+				<strong><%= advertiser.name %></strong>
+			</p>
+      <p><%= advertiser.document_type %>: <%= advertiser_document(advertiser) %></p>
+			<small><%= advertiser.ads_count%> ads</small>
+	  </li>
+  <% end %>
+</ul>
